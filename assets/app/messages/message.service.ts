@@ -10,7 +10,7 @@ export class MessageService {
     urlPost: string = 'http://localhost:3000';
 
     constructor(private http: Http) {}
-
+a
     addMessage(message: Message){
         //push only on Http POST success
         this.messages.push(message);
